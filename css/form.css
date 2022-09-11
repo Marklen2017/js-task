@@ -1,0 +1,35 @@
+.form {
+  background: #34b09f;
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+}
+  .form__group {
+    border: none;
+    display: inline-block;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .form__label {
+
+  }
+    .form__label + .form__label {
+      margin-left: 30px;
+    }
+  .form__radio {
+    display: none;
+  }
+    .form__radio:checked + .form__radio-label {
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+  .form__radio-label {
+    cursor: pointer;
+  }
+  .form__date {
+    font-family: inherit;
+    border: none;
+    border-radius: 2px;
+  }
